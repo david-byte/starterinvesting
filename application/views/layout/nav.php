@@ -1,3 +1,13 @@
+<div class="marquee">
+    <ul class="marquee-content">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+</div>
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
@@ -8,20 +18,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfólio</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Time</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Área do Cliente</a></li>
             </ul>
         </div>
     </div>
 </nav>
-<!-- Masthead-->
-<header class="masthead">
-    <div class="container">
-        <div class="masthead-subheading">Welcome To Our Studio!</div>
-        <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-    </div>
-</header>
+
+
+
