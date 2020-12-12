@@ -15,76 +15,69 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Já sou cliente</a></li>
             </ul>
-
         </div>
-
-
     </div>
 </nav>
-
-
 <!-- Masthead-->
 <header class="masthead">
     <!-- TradingView Widget BEGIN -->
-        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-            {
-                "symbols": [{
-                        "proName": "FX_IDC:EURUSD",
-                        "title": "EUR/USD"
-                    },
-                    {
-                        "proName": "BITSTAMP:BTCUSD",
-                        "title": "BTC/USD"
-                    },
-                    {
-                        "description": "GBP/USD",
-                        "proName": "OANDA:GBPUSD"
-                    },
-                    {
-                        "description": "XAU/USD",
-                        "proName": "OANDA:XAUUSD"
-                    },
-                    {
-                        "description": "USD/BRL",
-                        "proName": "FX_IDC:USDBRL"
-                    },
-                    {
-                        "description": "NZD/USD",
-                        "proName": "OANDA:NZDUSD"
-                    },
-                    {
-                        "description": "IBOVESPA",
-                        "proName": "INDEX:IBOV"
-                    },
-                    {
-                        "description": "USD/CHF",
-                        "proName": "OANDA:USDCHF"
-                    },
-                    {
-                        "description": "MGLU3",
-                        "proName": "BMFBOVESPA:MGLU3"
-                    },
-                    {
-                        "description": "EUR/JPY",
-                        "proName": "OANDA:EURJPY"
-                    },
-                    {
-                        "description": "USD/CAD",
-                        "proName": "FX:USDCAD"
-                    }
-                ],
-                "showSymbolLogo": true,
-                "colorTheme": "dark",
-                "isTransparent": false,
-                "displayMode": "adaptive",
-                "locale": "br"
-            }
-        </script>
- 
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+            "symbols": [{
+                    "proName": "FX_IDC:EURUSD",
+                    "title": "EUR/USD"
+                },
+                {
+                    "proName": "BITSTAMP:BTCUSD",
+                    "title": "BTC/USD"
+                },
+                {
+                    "description": "GBP/USD",
+                    "proName": "OANDA:GBPUSD"
+                },
+                {
+                    "description": "XAU/USD",
+                    "proName": "OANDA:XAUUSD"
+                },
+                {
+                    "description": "USD/BRL",
+                    "proName": "FX_IDC:USDBRL"
+                },
+                {
+                    "description": "NZD/USD",
+                    "proName": "OANDA:NZDUSD"
+                },
+                {
+                    "description": "IBOVESPA",
+                    "proName": "INDEX:IBOV"
+                },
+                {
+                    "description": "USD/CHF",
+                    "proName": "OANDA:USDCHF"
+                },
+                {
+                    "description": "MGLU3",
+                    "proName": "BMFBOVESPA:MGLU3"
+                },
+                {
+                    "description": "EUR/JPY",
+                    "proName": "OANDA:EURJPY"
+                },
+                {
+                    "description": "USD/CAD",
+                    "proName": "FX:USDCAD"
+                }
+            ],
+            "showSymbolLogo": true,
+            "colorTheme": "dark",
+            "isTransparent": false,
+            "displayMode": "adaptive",
+            "locale": "br"
+        }
+    </script>
     <!-- TradingView Widget END -->
 
     <div class="masthead-subheading">Starterinvesting!</div>
     <div class="masthead-heading text-uppercase">Investir na bolsa pode ser para você</div>
     <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Veja nosos Serviços</a>
-    </div>
 </header>
