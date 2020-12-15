@@ -2,7 +2,7 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
+                <div class="col-lg-4 text-lg-left">Copyright © STARTERINVESTING&nbsp;<?php echo date('Y'); ?></div>
                 <div class="col-lg-4 my-3 my-lg-0">
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -26,18 +26,17 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('public/assets/img/portfolio/01-full.jpg'); ?>" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <h2 class="text-uppercase">Alguns resultados</h2>
+                                <p class="item-intro text-muted">Temos a melhor estratégia do mercado.</p>
+                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('public/assets/img/portfolio/ob-1.jpg'); ?>" alt="" />
+                                <p class="item-intro text-muted">A melhor equipe.</p>
+                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('public/assets/img/portfolio/ob-2.jpg'); ?>" alt="" />
+                                <p class="item-intro text-muted">Entregamos resultados para nossos clientes.</p>
+                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('public/assets/img/portfolio/ob-3.jpeg'); ?>" alt="" />
+                                <p>Estamos a mais de 7 anos no mercado financeiro, venha fazer parte do 1% que lucra de verdade com investimentos! Entregamos para nosso cliente 3% de rentabilidade ao mês</p>
+                                <button class="btn btn-dark" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
-                                    Close Project
+                                    Fechar Resultados
                                 </button>
                             </div>
                         </div>
@@ -56,18 +55,17 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('public/assets/img/portfolio/02-full.jpg'); ?>" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Explore</li>
-                                    <li>Category: Graphic Design</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <h2 class="text-uppercase">Nosso Curso</h2>
+                                <p class="item-intro text-muted">O mais completo do mercado e o mais barato.</p>
+                                <video controls autoplay class="img-fluid d-block mx-auto"><source src="<?php echo base_url('public/assets/video/apresentacao-curso.mp4'); ?>" type="video/mp4"></video>
+                                <p>Nosso curso está disponível na área NOSSOS CURSOS, visite e confira algumas aulas gratuidas!</p>
+                                <p class="item-intro text-muted">Nosso curso está quebrando barreiras!!!.</p>
+                                <video controls autoplay class="img-fluid d-block mx-auto"><source src="<?php echo base_url('public/assets/video/arabe.mp4'); ?>" type="video/mp4"></video>
+                                <p>Nosso curso está atingindo lugares onde ninguém imagina!</p>
+                                
+                                <button class="btn btn-dark" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
-                                    Close Project
+                                    Fechar
                                 </button>
                             </div>
                         </div>
@@ -86,108 +84,13 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('public/assets/img/portfolio/03-full.jpg'); ?>" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Finish</li>
-                                    <li>Category: Identity</li>
-                                </ul>
+                                <h2 class="text-uppercase">3% mensal de lucro</h2>
+                                <p class="item-intro text-muted">Entregamos 3% lucro para nossos clientes.</p>
+                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('public/assets/img/portfolio/invest.jpg'); ?>" alt="" />
+                                <p>Recebemos capital de clientes e investimos em operações e repassamos 3% de lucro todo mes para o cliente! Nosso contrato aborda a total proteção do cliente, sendo assim, o cliente não corre o risco de perder seu capital. A STARTERINVESTING possui uma reserva de serguraça para cada contrato fechado. O clinte tem aceeso ao painel de evolução do seu capital onde pode verificar as operações feitas.</p>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 4-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="<?php echo base_url('public/assets/img/close-icon.svg'); ?>" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('public/assets/img/portfolio/04-full.jpg'); ?>" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Lines</li>
-                                    <li>Category: Branding</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 5-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="<?php echo base_url('public/assets/img/close-icon.svg'); ?>" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('public/assets/img/portfolio/05-full.jpg'); ?>" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Southwest</li>
-                                    <li>Category: Website Design</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 6-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="<?php echo base_url('public/assets/img/close-icon.svg'); ?>" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="<?php echo base_url('public/assets/img/portfolio/06-full.jpg'); ?>" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Window</li>
-                                    <li>Category: Photography</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
+                                    Fechar
                                 </button>
                             </div>
                         </div>
@@ -206,6 +109,6 @@
     <script src="<?php echo base_url('public/assets/mail/contact_me.js'); ?>"></script>
     <!-- Core theme JS-->
     <script src="<?php echo base_url('public/js/scripts.js'); ?>"></script>
-</body>
+    </body>
 
-</html>
+    </html>
