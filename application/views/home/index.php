@@ -27,14 +27,14 @@
         </div>
     </div>
 </section>
-<section class="page-section bg-light" id="portfolio">
+<section class="page-section bg-light justify-content" id="portfolio">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Portfólio</h2>
             <h3 class="section-subheading text-muted">Nossas modalidades de operações.</h3>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="col-lg-6 col-sm-6 mb-6">
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                         <div class="portfolio-hover">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="col-lg-6 col-sm-6 mb-6">
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
                         <div class="portfolio-hover">
@@ -59,20 +59,6 @@
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Curso</div>
                         <div class="portfolio-caption-subheading text-muted">Nosso Curso Online</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-compress-arrows-alt fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="<?php echo base_url('public/assets/img/portfolio/invest.jpg') ?>" alt="" />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">3% mensal de <strong>LUCRO!</strong></div>
-                        <div class="portfolio-caption-subheading text-muted">Veja como</div>
                     </div>
                 </div>
             </div>
