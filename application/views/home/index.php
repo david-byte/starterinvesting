@@ -73,7 +73,7 @@
         </div>
         <ul class="timeline">
             <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('public/assets/img/about/start.jpg') ?>" alt="" /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('public/assets/img/about/start.png') ?>" alt="" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4>20015-2020</h4>
@@ -85,35 +85,36 @@
                 </div>
             </li>
             <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('public/assets/img/about/expansao.png') ?>" alt="" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>March 2011</h4>
-                        <h4 class="subheading">An Agency is Born</h4>
+                        <h4>2017 - 2018</h4>
+                        <h4 class="subheading">Expansão</h4>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        <p class="text-muted">Durante o período de aprendizagem e treinamento, fomos conhecendo o mercado não só de investimento mas também o mercado de pessoas! Operamos em mesa proprietaria durante o tempo de aprendizado até que sentimos que já estavamos prontos para Criar o nosso próprio mercado e ter nossos próprios clinetes!</p>
                     </div>
                 </div>
             </li>
             <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('public/assets/img/about/robo.png') ?>" alt="" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>December 2012</h4>
-                        <h4 class="subheading">Transition to Full Service</h4>
+                        <h4>2018 - 2020</h4>
+                        <h4 class="subheading">Saíndo do Amadorismo</h4>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        <p class="text-muted">Conforme aumentamos as entradas no mercado financiero, vimos que precisavamos aumentar nosso lek de opções de operações. Dediamos dias e noites para fazer bot, robô e estratégias. Quando conseguimos desenvolver a estratégia principal abrimos as portas para que clientes pudessem desfrutar dessa ferramenta! Por motivos de <strong>SEGURANÇA</strong>, não divulgaremos nossa metodologia de Acessoramento Financeiro. Para ter mais informações Clique no Botão Saber Mais!</p>
+                        <a class="btn btn-sm btn-dark" href="#">Saber Mais</a>
                     </div>
                 </div>
             </li>
             <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="" alt="" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>July 2014</h4>
-                        <h4 class="subheading">Phase Two Expansion</h4>
+                        <h4>2020</h4>
+                        <h4 class="subheading">O Ano que Firmou a Equipe ST</h4>
                     </div>
                     <div class="timeline-body">
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
