@@ -1,4 +1,7 @@
-#tadeview{
-    width: 100vw;
-    height: 100vh;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../assets/img/login/mercado.jpg) no-repeat;
+    background-size: cover;
 }

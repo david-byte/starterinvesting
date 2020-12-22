@@ -1,28 +1,28 @@
-<h1><?php echo lang('login_heading');?></h1>
-<p><?php echo lang('login_subheading');?></p>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<div id="infoMessage"><?php echo $message;?></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="<?php echo base_url('public/css/login.css'); ?>" rel="stylesheet" />
+  <title>Document</title>
+</head>
 
-<?php echo form_open("auth/login");?>
+<body>
+  <?php echo form_open("auth/login"); ?>
+  <div class="login-box">
+    <h1>Login</h1>
+    <div class="textbox">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <?php echo form_input($identity); ?>
+    </div>
+    <div class="textbox">
+      <i class="fa fa-lock" aria-hidden="true"></i>
+      <?php echo form_input($password); ?>
+    </div> 
+    <?php echo form_submit('submit', lang('login_submit_btn')); ?>
+  </div>
+  <?php echo form_close(); ?>
+</body>
 
-  <p>
-    <?php echo lang('login_identity_label', 'identity');?>
-    <?php echo form_input($identity);?>
-  </p>
-
-  <p>
-    <?php echo lang('login_password_label', 'password');?>
-    <?php echo form_input($password);?>
-  </p>
-
-  <p>
-    <?php echo lang('login_remember_label', 'remember');?>
-    <?php echo form_checkbox('remember', '1', FALSE, 'id="remember"');?>
-  </p>
-
-
-  <p><?php echo form_submit('submit', lang('login_submit_btn'));?></p>
-
-<?php echo form_close();?>
-
-<p><a href="forgot_password"><?php echo lang('login_forgot_password');?></a></p>
+</html>
