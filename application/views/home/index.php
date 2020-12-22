@@ -158,7 +158,7 @@
                 </span>
                 <h4 class="my-3">Opções Binárias</h4>
                 <p class="text-muted">Este curso foi gravado e atualizado recentemente. Encontra-se disponível no Hotmart</p>
-                <a class="btn btn-sm btn-dark" href="https://linktr.ee/Cursodorei">Comprar</a>
+                <a class="btn btn-sm btn-dark" href="https://linktr.ee/Cursodorei" target="_blanck">Comprar</a>
             </div>
             <div class="col-md-6">
                 <span class="fa-stack fa-4x">
@@ -324,3 +324,47 @@
         </div>
     </div>
 </div>
+<!-- Contact-->
+<section class="page-section" id="contact">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Entre em Contato</h2>
+            <h3 class="section-subheading text-muted">Seja um ganhador!</h3>
+        </div>
+        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="name" type="text" placeholder="Seu nome *" required="required" data-validation-required-message="Preencha seu nome." />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="email" type="email" placeholder="Seu E-mail *" required="required" data-validation-required-message="Preencha seu E-mail." />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group mb-md-0">
+                        <input class="form-control" id="phone" type="tel" placeholder="Seu telefone *" required="required" data-validation-required-message="Preencha seu telefone." />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0">
+                        <textarea class="form-control" id="message" placeholder="Sua menssagem *" required="required" data-validation-required-message="Envie sua mensagem."></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div id="success"></div>
+                <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar mensagem</button>
+            </div>
+        </form>
+        <div class="text-center mt-5">
+            <h4 class="section-heading text-uppercase">Tire suas dúvidas nas nossas redes sociais</h4>
+            <h6 class="section-subheading text-muted">Seja um ganhador!</h6>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/jesseoliveira.wst/"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/david_tr3der.wst/"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/ivaedes.wst/"><i class="fab fa-instagram"></i></a>
+        </div>
+        
+</section>
