@@ -1,17 +1,8 @@
     <!-- Footer-->
     <footer class="footer py-4">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-left">Copyright © STARTERINVESTING&nbsp;<?php echo date('Y'); ?></div>
-                <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-lg-4 text-lg-right">
-                    <a class="mr-3" href="#!">Privacy Policy</a>
-                    <a href="#!">Terms of Use</a>
-                </div>
+            <div class="text-center">
+                <h6 class="text-muted"> © STARTERINVESTING&nbsp;<?php echo date('Y'); ?></h6>
             </div>
         </div>
     </footer>
@@ -57,12 +48,14 @@
                                 <!-- Project Details Go Here-->
                                 <h2 class="text-uppercase">Nosso Curso</h2>
                                 <p class="item-intro text-muted">O mais completo do mercado e o mais barato.</p>
-                                <video controls class="img-fluid d-block mx-auto"><source src="<?php echo base_url('public/assets/video/apresentacao-curso.mp4'); ?>" type="video/mp4"></video>
+                                <video controls class="img-fluid d-block mx-auto">
+                                    <source src="<?php echo base_url('public/assets/video/apresentacao-curso.mp4'); ?>" type="video/mp4"></video>
                                 <p>Nosso curso está disponível na área NOSSOS CURSOS, visite e confira algumas aulas gratuidas!</p>
                                 <p class="item-intro text-muted">Nosso curso está quebrando barreiras!!!.</p>
-                                <video controls class="img-fluid d-block mx-auto"><source src="<?php echo base_url('public/assets/video/arabe.mp4'); ?>" type="video/mp4"></video>
+                                <video controls class="img-fluid d-block mx-auto">
+                                    <source src="<?php echo base_url('public/assets/video/arabe.mp4'); ?>" type="video/mp4"></video>
                                 <p>Nosso curso está atingindo lugares onde ninguém imagina!</p>
-                                
+
                                 <button class="btn btn-dark" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
                                     Fechar
