@@ -5,8 +5,10 @@ class Login extends CI_Controller
 {
     public function index()
     {
-
-        $this->load->view('layout/header');
+        $data = array(
+            'title' => 'Login'
+        );
+        $this->load->view('layout/header', $data);
         $this->load->view('login/index');
         $this->load->view('layout/footer');
     }
@@ -19,7 +21,7 @@ class Login extends CI_Controller
         $remember = FALSE; // remember the user
 
         if ($this->ion_auth->login($identity, $password, $remember)) {
-            redirect('home');
+            redirect('cliente');
         } else {
             $this->session->set_flashdata('error', 'Verifique seu e-mail ou senha');
             redirect('login');

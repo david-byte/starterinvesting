@@ -2,10 +2,13 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="text-center">
-                <h6 class="text-muted"> © STARTERINVESTING&nbsp;<?php echo date('Y'); ?></h6>
+                <?php if (!$this->router->fetch_class() == 'login') : ?>
+                    <h6 class="text-muted"> © STARTERINVESTING&nbsp;<?php echo date('Y'); ?></h6>
+                <?php endif; ?>
             </div>
         </div>
     </footer>
+    <!-- End Footer -->
     <!-- Portfolio Modals-->
     <!-- Modal 1-->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -103,6 +106,6 @@
     <!-- Core theme JS-->
     <script src="<?php echo base_url('public/js/scripts.js'); ?>"></script>
 
-</body>
+    </body>
 
     </html>
