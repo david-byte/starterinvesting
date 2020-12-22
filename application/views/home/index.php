@@ -54,7 +54,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-compress-arrows-alt fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="<?php echo base_url('public/assets/img/portfolio/curso-1-thumbnail.png') ?>" alt="" />
+                        <img class="img-fluid" src="<?php echo base_url('public/assets/img/portfolio/curso-1-thumbnail.png'); ?>" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Curso</div>
@@ -73,7 +73,7 @@
         </div>
         <ul class="timeline">
             <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('public/assets/img/about/start.png') ?>" alt="" /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('public/assets/img/about/start.png'); ?>" alt="" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4>20015-2020</h4>
@@ -85,7 +85,7 @@
                 </div>
             </li>
             <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('public/assets/img/about/expansao.png') ?>" alt="" /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('public/assets/img/about/expansao.png'); ?>" alt="" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4>2017 - 2018</h4>
@@ -97,7 +97,7 @@
                 </div>
             </li>
             <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('public/assets/img/about/robo.png') ?>" alt="" /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('public/assets/img/about/robo.png'); ?>" alt="" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4>2018 - 2020</h4>
@@ -110,28 +110,94 @@
                 </div>
             </li>
             <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="" alt="" /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('public/assets/img/about/equipe.png'); ?>" alt="" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4>2020</h4>
                         <h4 class="subheading">O Ano que Firmou a Equipe ST</h4>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        <p class="text-muted">Com a crise da COVID-19 as bolsas se movimentaram de maneiras anormais, nossa equipe trabalhou dia e noite para mitigar os riscos e protejer o capital. Nossos clientes continuaram com seus contratos a todo vapor em plena crise.</p>
                     </div>
                 </div>
             </li>
-            <li class="timeline-inverted">
-                <div class="timeline-image">
-                    <h4>
-                        Be Part
-                        <br />
-                        Of Our
-                        <br />
-                        Story!
-                    </h4>
-                </div>
-            </li>
         </ul>
+    </div>
+</section>
+<section class="page-section bg-light justify-content" id="portfolio">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Galeria de Resultados</h2>
+            <h3 class="section-subheading text-muted">Alguns dos resultados incríveis.</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="<?php echo base_url('public/assets/img/result/resultado1.jpeg'); ?>" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="<?php echo base_url('public/assets/img/result/resultado2.jpeg'); ?>" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="<?php echo base_url('public/assets/img/result/resultado3.jpeg'); ?>" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="<?php echo base_url('public/assets/img/result/resultado4.jpeg'); ?>" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="<?php echo base_url('public/assets/img/result/resultado5.jpeg'); ?>" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="<?php echo base_url('public/assets/img/result/resultado6.jpg'); ?>" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="<?php echo base_url('public/assets/img/result/resultado7.jpg'); ?>" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="<?php echo base_url('public/assets/img/result/resultado8.jpg'); ?>" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="<?php echo base_url('public/assets/img/result/resultado9.jpg'); ?>" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Galeria de Videos</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-sm-6 mb-6">
+                <div class="ratio ratio-16x9">
+                    <video controls class="img-fluid d-block mx-auto">
+                        <source src="<?php echo base_url('public/assets/video/video1.mp4'); ?>" type="video/mp4"></video>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6 mb-6">
+                <div class="ratio ratio-16x9">
+                    <video controls class="img-fluid d-block mx-auto">
+                        <source src="<?php echo base_url('public/assets/video/video2.mp4'); ?>" type="video/mp4"></video>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
