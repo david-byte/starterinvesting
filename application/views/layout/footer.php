@@ -57,10 +57,10 @@
                                 <!-- Project Details Go Here-->
                                 <h2 class="text-uppercase">Nosso Curso</h2>
                                 <p class="item-intro text-muted">O mais completo do mercado e o mais barato.</p>
-                                <video controls autoplay class="img-fluid d-block mx-auto"><source src="<?php echo base_url('public/assets/video/apresentacao-curso.mp4'); ?>" type="video/mp4"></video>
+                                <video controls class="img-fluid d-block mx-auto"><source src="<?php echo base_url('public/assets/video/apresentacao-curso.mp4'); ?>" type="video/mp4"></video>
                                 <p>Nosso curso está disponível na área NOSSOS CURSOS, visite e confira algumas aulas gratuidas!</p>
                                 <p class="item-intro text-muted">Nosso curso está quebrando barreiras!!!.</p>
-                                <video controls autoplay class="img-fluid d-block mx-auto"><source src="<?php echo base_url('public/assets/video/arabe.mp4'); ?>" type="video/mp4"></video>
+                                <video controls class="img-fluid d-block mx-auto"><source src="<?php echo base_url('public/assets/video/arabe.mp4'); ?>" type="video/mp4"></video>
                                 <p>Nosso curso está atingindo lugares onde ninguém imagina!</p>
                                 
                                 <button class="btn btn-dark" data-dismiss="modal" type="button">

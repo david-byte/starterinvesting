@@ -27,6 +27,7 @@
         </div>
     </div>
 </section>
+<!-- Portfolio -->
 <section class="page-section bg-light justify-content" id="portfolio">
     <div class="container">
         <div class="text-center">
@@ -124,7 +125,8 @@
         </ul>
     </div>
 </section>
-<section class="page-section bg-light justify-content" id="portfolio">
+<!-- Gallery -->
+<section class="page-section bg-light justify-content" id="gallery">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Galeria de Resultados</h2>
@@ -181,23 +183,120 @@
                 </div>
             </div>
         </div>
-        <div class="text-center">
+        <div class="text-center mt-5">
             <h2 class="section-heading text-uppercase">Galeria de Videos</h2>
         </div>
         <div class="row">
             <div class="col-lg-6 col-sm-6 mb-6">
-                <div class="ratio ratio-16x9">
+                <div class="ratio ratio-21x9">
                     <video controls class="img-fluid d-block mx-auto">
                         <source src="<?php echo base_url('public/assets/video/video1.mp4'); ?>" type="video/mp4"></video>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6 mb-6">
-                <div class="ratio ratio-16x9">
+                <div class="ratio ratio-21x9">
                     <video controls class="img-fluid d-block mx-auto">
                         <source src="<?php echo base_url('public/assets/video/video2.mp4'); ?>" type="video/mp4"></video>
                 </div>
             </div>
         </div>
 
+    </div>
+</section>
+<!-- Curso -->
+<section class="page-section bg-light" id="team">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Curso</h2>
+            <h3 class="section-subheading text-muted">O melhor curso do mercado!</h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">Opções Binárias</h4>
+                <p class="text-muted">Este curso foi gravado e atualizado recentemente. Encontra-se disponível no Hotmart</p>
+                <a class="btn btn-sm btn-dark" href="https://linktr.ee/Cursodorei">Comprar</a>
+            </div>
+            <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="badge bg-secondary">Em Breve</span>
+                <h4 class="my-3 ">Curso Ead</h4>  
+                <p class="text-muted">O curso Ead terá muitos módulos para que o aluno possa ter um acompanhamento diário</p>
+                <a class="btn btn-sm btn-dark disabled " href="#">Ver Mais</a>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- Team-->
+<section class="page-section bg-light" id="team">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Nossa Equipe</h2>
+            <h3 class="section-subheading text-muted">A melhor equipe do mercado internacional.</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="<?php echo base_url('public/assets/img/team/david.jpg'); ?>" alt="" />
+                    <h4>David Araujo</h4>
+                    <p></p>
+                    <p class="text-muted">Operador Secundário</p>
+                    <p class="text-muted">Criador dos bots e robôs</p>
+                    <p class="text-muted">Responsável pelos contratos de Brasília-DF</p>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/david_tr3der/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="<?php echo base_url('public/assets/img/team/jesse.jpg'); ?>" alt="" />
+                    <h4>Jessé Oliveira</h4>
+                    <p class="text-muted"></p>
+                    <p class="text-muted">Operador Principal</p>
+                    <p class="text-muted">Responsável pelas Estratégias e Operações</p>
+                    <p class="text-muted">Instrutor do Curso</p>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/jesseoliveira.wst/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="<?php echo base_url('public/assets/img/team/iva.jpg'); ?>" alt="" />
+                    <h4>Ivã Edes</h4>
+                    <p class="text-muted"></p>
+                    <p class="text-muted">Gerente Comercial</p>
+                    <p class="text-muted">Responsável pela Gestão do Capital</p>
+                    <p class="text-muted">Responsável pelos contratos da Bahia-BA</p>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/ivaedes/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 mb-12 mx-auto text-center">
+                <p class="large text-muted">Somos a melhor equipe em operação do mercado de Opções Binárias e Forex.</p>
+            </div>
+        </div>
+        <div class="row justify-content">
+            <div class=" row col-mb-6 mr-5">
+                <img width="200" height="200" src="<?php echo base_url('public/assets/img/portfolio/op1.jpg'); ?>" class="img-thumbnail" alt="...">
+            </div>
+            <div class=" row col-mb-6 mr-5">
+                <img width="200" height="200" src="<?php echo base_url('public/assets/img/portfolio/op2.jpg'); ?>" class="img-thumbnail" alt="...">
+            </div>
+            <div class=" row col-mb-6 mr-5">
+                <img width="200" height="200" src="<?php echo base_url('public/assets/img/portfolio/op3.jpg'); ?>" class="img-thumbnail" alt="...">
+            </div>
+            <div class=" row col-mb-6 mr-5">
+                <img width="200" height="200" src="<?php echo base_url('public/assets/img/result/resultado1.jpeg'); ?>" class="img-thumbnail" alt="...">
+            </div>
+            <div class=" row col-mb-6">
+                <img width="200" height="200" src="<?php echo base_url('public/assets/img/result/resultado2.jpeg'); ?>" class="img-thumbnail" alt="...">
+            </div>
+        </div>
     </div>
 </section>

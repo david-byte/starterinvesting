@@ -10,10 +10,11 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Serviços</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfólio</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#gallery">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cursos">Cursos</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Time</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Nosos Cursos</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Já sou cliente</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#client">Já sou cliente</a></li>
             </ul>
         </div>
     </div>
