@@ -2526,6 +2526,7 @@ class Ion_auth_model extends CI_Model
 
 		if ($hash === FALSE)
 		{
+
 			return FALSE;
 		}
 
