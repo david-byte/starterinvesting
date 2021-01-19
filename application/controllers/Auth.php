@@ -69,10 +69,10 @@ class Auth extends CI_Controller
 		$this->security->xss_clean($this->input->post('identity'));
 		$this->security->xss_clean($this->input->post('password'));
 
-
 		if ($this->form_validation->run() === TRUE)
 		{
 		
+			
 			// check to see if the user is logging in
 			// check for "remember me"
 			$remember = (bool)$this->input->post('remember');
@@ -84,7 +84,7 @@ class Auth extends CI_Controller
 				//if the login is successful
 				//redirect them back to the home page
 				$this->session->set_flashdata('message', $this->ion_auth->messages());
-				redirect('welcome', 'refresh');
+				redirect('home', 'refresh');
 			}
 			else
 			{
@@ -93,13 +93,18 @@ class Auth extends CI_Controller
 				// redirect them back to the login page
 				$this->session->set_flashdata('error', 'Verifique sua Identidade e Senha!');
 				redirect('auth/login', 'refresh'); // use redirects instead of loading views for compatibility with MY_Controller libraries
+
 			}
 		}
 		else
 		{
+			/*echo '<pre>';
+			print_r($this->input->post());
+			exit();*/
 			// the user is not logging in so display the login page
 			// set the flash data error message if there is one
-			$this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
+			$this->session->set_flashdata('error', 'Verifique sua Identidade e Senha!');
+			//$this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
 
 			$this->data['identity'] = [
 				'name' => 'identity',
@@ -899,7 +904,7 @@ class Auth extends CI_Controller
 	{
 		// validate form input
 		$this->form_validation->set_rules('identity','', 'max_length[45]');
-		$this->form_validation->set_rules('password', '', 'required|max_lenght[10]');
+		$this->form_validation->set_rules('password', '', 'required');
 
 		$this->form_validation->set_error_delimiters('<span class="text-danger">', '</span>');
 	}
